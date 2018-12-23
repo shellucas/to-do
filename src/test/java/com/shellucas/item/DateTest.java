@@ -40,6 +40,7 @@ public class DateTest {
 
     @Test
     public void testDate() {
+        System.out.println("testDate");
         LocalDateTime now = LocalDateTime.now();
         int currentYear = now.getYear();
         Month currentMonth = Month.getMonth(now.getMonthValue());
